@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rida Fathima — Portfolio</title>
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Portfolio of Rida Fathima — Web Developer / Designer">
+</head>
+<body>
+  
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Rida <span class="accent">Fathima</span></h1>
+        <p class="tag">Frontend Enthusiast • Aesthetic Designs</p>
+      </div>
+
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact" class="btn-outline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h2>Hello — I'm <span class="accent">Rida</span></h2>
+        <p class="lead">I build clean, aesthetic websites using HTML, CSS & JavaScript. Currently learning responsive design and UI/UX fundamentals.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="#resume" class="btn-secondary">Download Resume</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="images/profile.jpg" alt="Rida Fathima" />
+      </div>
+    </div>
+  </section>
+
+
+  <section id="about" class="section about">
+    <div class="container">
+      <h3 class="section-title">About</h3>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a web development intern focused on building aesthetic and accessible websites. I enjoy crafting minimal designs with attention to typography, spacing and color harmony. I'm comfortable with HTML, CSS, basic JavaScript and learning frameworks.</p>
+          <ul class="about-list">
+            <li><strong>Location:</strong> India</li>
+            <li><strong>Education:</strong> B.Tech (or your degree)</li>
+            <li><strong>Availability:</strong> Open to internships & freelance projects</li>
+          </ul>
+        </div>
+        <div class="about-photo">
+          <img src="images/profile.jpg" alt="Rida profile">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="skills" class="section skills">
+    <div class="container">
+      <h3 class="section-title">Skills</h3>
+      <div class="skills-list">
+        <div class="skill">
+          <h4>HTML</h4>
+          <div class="bar"><span style="width:90%"></span></div>
+        </div>
+        <div class="skill">
+          <h4>CSS</h4>
+          <div class="bar"><span style="width:85%"></span></div>
+        </div>
+        <div class="skill">
+          <h4>JavaScript</h4>
+          <div class="bar"><span style="width:60%"></span></div>
+        </div>
+        <div class="skill">
+          <h4>Responsive Design</h4>
+          <div class="bar"><span style="width:75%"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h3 class="section-title">Projects</h3>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="images/project1.jpg" alt="Project 1">
+          <div class="project-body">
+            <h4>Personal Portfolio</h4>
+            <p>Aesthetic responsive portfolio built with HTML & CSS showcasing projects and resume download.</p>
+            <div class="project-links">
+              <a href="#" target="_blank">Live Demo</a>
+              <a href="#" target="_blank">Source</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/project2.jpg" alt="Project 2">
+          <div class="project-body">
+            <h4>Landing Page</h4>
+            <p>Clean landing page with sections for features and CTA. Focus on layout & responsive behaviour.</p>
+            <div class="project-links">
+              <a href="#" target="_blank">Live Demo</a>
+              <a href="#" target="_blank">Source</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/project3.jpg" alt="Project 3">
+          <div class="project-body">
+            <h4>Calculator App (HTML/CSS/JS)</h4>
+            <p>Simple calculator using vanilla JavaScript and CSS grid to arrange buttons.</p>
+            <div class="project-links">
+              <a href="#" target="_blank">Live Demo</a>
+              <a href="#" target="_blank">Source</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="resume" class="section resume">
+    <div class="container">
+      <h3 class="section-title">Resume</h3>
+      <p>Download my resume to see a full list of education, projects and experience.</p>
+      <a href="resume.pdf" download class="btn-primary">Download Resume (PDF)</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h3 class="section-title">Contact</h3>
+      <div class="contact-grid">
+        <div>
+          <p>If you want to collaborate or offer an internship, feel free to contact me:</p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+            <li><strong>Phone:</strong> +91-XXXXXXXXXX</li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li>
+          </ul>
+        </div>
+
+        <form class="contact-form" action="mailto:your.email@example.com" method="get" enctype="text/plain">
+          <label>
+            <span>Name</span>
+            <input type="text" name="Name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="Email" required>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="Message" rows="5" required></textarea>
+          </label>
+          <button type="submit" class="btn-primary">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Rida Fathima. All rights reserved.</p>
+      <div class="social">
+        <a href="#" target="_blank">LinkedIn</a>
+        <a href="#" target="_blank">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
